@@ -4,7 +4,7 @@
  
 ![image](https://user-images.githubusercontent.com/88620315/135764650-86052165-a9a1-4de9-acb0-ea9a7fae15b4.png)
 
-# TEXT EDIOR
+# TEXT EDITOR
 by default there is a nano text editor already in ubuntu, to see the nano version you can use the following command:
 >nano –version
 
