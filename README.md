@@ -1,7 +1,9 @@
 # devops_week3
 
+
  
 ![image](https://user-images.githubusercontent.com/88620315/135764650-86052165-a9a1-4de9-acb0-ea9a7fae15b4.png)
+
 # TEXT EDIOR
 by default there is a nano text editor already in ubuntu, to see the nano version you can use the following command:
 >nano –version
@@ -123,7 +125,9 @@ cat -n [filename]
 ## monitoring sistem
 #### Htop:
 htop is an interactive program for monitoring system processes and managing processes. Htop provides a complete list of running processes, so you can see which processes are consuming a lot of CPU/RAM resources.
+
  ![image](https://user-images.githubusercontent.com/88620315/135764620-0c5f2ee2-a4c3-4bf7-bcdb-4170523a523d.png)
+ 
 #### LSOF
 
 lsof is a command to see all files that are currently open, lsof itself stands for list open files
@@ -133,6 +137,7 @@ Lsof
 Lsof -u user
 
 Lsof -i :[port]
+
  ![image](https://user-images.githubusercontent.com/88620315/135764606-9e268349-e74e-48e7-a5d6-2901581e6b5b.png)
 
  ![image](https://user-images.githubusercontent.com/88620315/135764592-c243b8cc-6aa5-435e-b1db-2f89def9c8be.png)
@@ -143,10 +148,12 @@ Lsof -i :[port]
 Knowing the list of processes running on the system, ps stands for ststus process
 
 Ps -f -u user
+
 ![image](https://user-images.githubusercontent.com/88620315/135764573-9f70e387-3237-43ef-bf43-b7378ccde91f.png)
 
 
 ps -aux
+
  ![image](https://user-images.githubusercontent.com/88620315/135764538-9efb8440-79a3-4723-a807-d7fd1fad9a6a.png)
 
 
@@ -210,6 +217,7 @@ we can check with systemd init system to make sure the service is running.
  ![image](https://user-images.githubusercontent.com/88620315/135764481-1cbe791f-9c6d-483a-8d62-0c8253894792.png)
 
 >Sudo ufw default allow/deny incoming/outgoing
+
  ![image](https://user-images.githubusercontent.com/88620315/135764700-7272f1df-3243-4dc0-922d-38daf416b328.png)
 
 >Sudo ufw app list
@@ -221,7 +229,7 @@ we can check with systemd init system to make sure the service is running.
 https://cmsmanajer.com/register
  ![image](https://user-images.githubusercontent.com/88620315/135764722-9c226ed9-bae6-44d1-b1df-db0d872f3f5b.png)
 
-52.221.182.149
+
  ![image](https://user-images.githubusercontent.com/88620315/135764728-494e291f-69ee-4303-b460-72bd602cf495.png)
  
  
@@ -235,28 +243,47 @@ vmstat is a tool to display memory and swap usage, then it will also provide inf
 type the command to install, in order to use vmstat
 >sudo apt install sysstat -y
 
+![image](https://user-images.githubusercontent.com/88620315/135765797-e98d1dd6-ebed-4efc-a710-0f2ff02261bb.png)
+
 type the command, to run vmstat
 >vmstat
 
+![image](https://user-images.githubusercontent.com/88620315/135765911-70c69a5d-8bf7-4993-a852-d718cf1444d3.png)
+
+
 to display more detailed information can type the following command
 >vmstat -sSM
+
+![image](https://user-images.githubusercontent.com/88620315/135765947-0b1dd970-b552-4a1b-8b83-4395ebeeed79.png)
+
 
 vmstat only displays data based on a collection of previous data, meaning that it is not as real-time as in monitoring tools.
 to display vmstat in realtime 5 second 10 times.
 >vmstat 5 10
 
+![image](https://user-images.githubusercontent.com/88620315/135765985-2927a8ef-ec8f-4be4-b84e-624b851833f0.png)
+
+
+
 Iostat will display the data with our infrastructure information.
 display system input/output information, see how long the device is active in relation to speed.
 >lostat
+
+![image](https://user-images.githubusercontent.com/88620315/135766030-398a9000-d33b-4e74-a3f5-da16dcf24f43.png)
+
+
 
 nmon nmon for monitoring with more complete data, you can use nmon.
 install nmon first
 >sudo apt install nmon -y
 
+![image](https://user-images.githubusercontent.com/88620315/135766084-6f948697-b7cc-47e3-bd82-17fb7f18dd47.png)
+
+
 run the following command to display an information.
 
 >nmon
 
-press n to display network
-press c to display cpu
-press d to display disc
+![image](https://user-images.githubusercontent.com/88620315/135766232-7cf4a1a2-1049-4065-9283-6321d9983190.png)
+
+
