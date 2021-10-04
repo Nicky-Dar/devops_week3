@@ -1,10 +1,6 @@
-# devops_week3
-
-
  
 ![image](https://user-images.githubusercontent.com/88620315/135764650-86052165-a9a1-4de9-acb0-ea9a7fae15b4.png)
-
-# TEXT EDITOR
+# TEXT EDIOR
 by default there is a nano text editor already in ubuntu, to see the nano version you can use the following command:
 >nano –version
 
@@ -286,4 +282,25 @@ run the following command to display an information.
 
 ![image](https://user-images.githubusercontent.com/88620315/135766232-7cf4a1a2-1049-4065-9283-6321d9983190.png)
 
+# CMS Manager
 
+Content management system or abbreviated as CMS is an application that helps users to create, manage, and modify content on websites without requiring special technical knowledge.
+
+![image](https://user-images.githubusercontent.com/88620315/135857800-073210a0-75a8-43d4-b09a-4cdb0039068a.png)
+
+First we can register on the sign up menu. Fill out the form.
+
+![image](https://user-images.githubusercontent.com/88620315/135858028-11943f9f-3917-4ae9-b96a-f991d8458110.png)
+
+Next, we can connect to the server with connect server.
+
+![image](https://user-images.githubusercontent.com/88620315/135858383-96cf77d0-6737-4ff8-84ad-ece101850898.png)
+
+
+
+![image](https://user-images.githubusercontent.com/88620315/135858493-762ba760-c126-4ecf-82df-3125135d34c8.png)
+
+after the server is connected, we can make the application as we want
+
+
+![image](https://user-images.githubusercontent.com/88620315/135858590-1ad97d54-eb4d-4cf6-80ed-fcda63ca3afe.png)
